@@ -1,139 +1,287 @@
 # 🛡️ Parallel Guardian AI
 
-> An AI-powered student productivity companion that predicts deadline risks, prevents procrastination, and rescues students before they miss important work.
+> An AI-powered student productivity companion that predicts deadline risks, prioritizes tasks intelligently, and rescues students before they miss important academic commitments.
 
-🌐 Live Demo: https://parallel-guardian-ai.lovable.app
+## 🌐 Live Demo
 
----
-
-## 📌 Problem Statement
-
-Students frequently juggle multiple assignments, exams, projects, and extracurricular activities simultaneously. Traditional task managers only track tasks—they do not predict failures, identify risks, or intervene before deadlines are missed.
-
-Parallel Guardian AI transforms task management into proactive academic guidance by detecting deadline risks, analyzing productivity patterns, and generating personalized recovery plans.
+🔗 [Try Parallel Guardian AI Here]: https://parallel-guardian-ai.lovable.app
 
 ---
 
-## ✨ Key Features
+## 📖 Problem Statement
 
-### 🤖 AI Smart Capture
-Describe tasks in natural language such as:
+Students constantly juggle assignments, exams, projects, interviews, and personal commitments. Traditional to-do apps simply store tasks but fail to:
 
-> "I have a DBMS viva next Friday and need 6 hours of preparation."
+- Predict which tasks are at risk.
+- Prioritize work intelligently.
+- Adapt to changing schedules.
+- Provide actionable recovery plans when deadlines slip.
+- Encourage self-reflection and continuous improvement.
 
-The system automatically extracts:
+Parallel Guardian AI addresses these challenges by acting as an intelligent academic assistant that continuously analyzes workload and guides students toward better productivity decisions.
+
+---
+
+# ✨ Key Features
+
+## 🧠 AI Daily Brief
+
+Generates an intelligent daily summary including:
+
+- Today's deadlines
+- Estimated workload
+- Highest risk task
+- Recommended first action
+- Personalized productivity advice
+
+---
+
+## 🚨 Deadline Guardian
+
+Automatically identifies:
+
+- Overdue tasks
+- Critical deadlines
+- High-risk assignments
+- Upcoming academic bottlenecks
+
+Provides rescue actions before failure occurs.
+
+---
+
+## 🎯 AI Priority Queue
+
+Uses AI-driven prioritization to determine:
+
+- What should be done next
+- Task urgency level
+- Deadline severity
+- Workload balancing
+
+Students always know what deserves attention first.
+
+---
+
+## ⏰ Adaptive Focus Window
+
+Suggests personalized deep-work sessions based on:
+
+- Task urgency
+- Historical productivity
+- Workload intensity
+
+Helps students maximize focus and reduce procrastination.
+
+---
+
+## 📝 Smart Task Capture
+
+Students can describe tasks in natural language.
+
+Example:
+
+> "I have my DBMS viva on Friday and need around 6 hours of preparation."
+
+The AI automatically extracts:
+
 - Task title
 - Deadline
-- Estimated effort
-- Category
+- Estimated duration
 - Priority
 
 ---
 
-### 🧠 Daily AI Brief
+## 🆘 Rescue Planner
 
-Generates personalized daily summaries including:
+When a task becomes overdue, the AI generates:
 
-- Tasks due today
-- Workload estimation
-- Highest-risk task
-- Suggested first action
-- Motivational guidance
+- Recovery strategies
+- Step-by-step action plans
+- Suggested workload redistribution
 
----
-
-### 🚨 Deadline Guardian
-
-Continuously monitors deadlines and proactively alerts users when tasks become risky or overdue.
-
-Features:
-
-- Critical risk detection
-- Emergency alerts
-- Overdue task monitoring
-- Rescue recommendations
+Helping students recover instead of giving up.
 
 ---
 
-### 🛟 AI Rescue Planner
+## 📊 Productivity Analytics
 
-When a task slips, the system automatically creates:
+Tracks:
 
-- Recovery plans
-- Prioritized action steps
-- Time allocation suggestions
-- Emergency execution strategies
+- Weekly completion rate
+- Productivity trends
+- Task completion history
+- Streak maintenance
 
----
-
-### 📊 AI Priority Queue
-
-Ranks tasks dynamically using:
-
-- Deadline proximity
-- Estimated effort
-- Risk score
-- Completion confidence
-
-Ensures students always know:
-
-> "What should I do next?"
+Provides insights into long-term performance.
 
 ---
 
-### 🎯 Focus Window Recommendation
+## ❤️ Wellness Monitor
 
-Learns productivity patterns and recommends the optimal study window for maximum effectiveness.
+Monitors productivity health indicators:
 
----
+- Energy level
+- Focus level
+- Burnout risk
 
-### 📈 Productivity Analytics
-
-Provides insights such as:
-
-- Weekly completion trends
-- Productivity score
-- Streak tracking
-- Historical performance
+Offers suggestions to maintain sustainable productivity.
 
 ---
 
-### 🔍 Explainable AI
+## 📓 AI Reflection Journal
 
-Every prediction includes transparent reasoning.
+Generates daily reflections including:
 
-Example:
+- Progress summary
+- Missed commitments
+- Improvement suggestions
+- Tomorrow's priorities
 
-> Confidence: 72%
-
-Factors:
-- Deadline approaching
-- High estimated effort
-- Historical procrastination pattern
+Encourages continuous learning and self-improvement.
 
 ---
 
-### 🌙 Modern Student Experience
+# 🛠️ Tech Stack
 
-- Dark / Light mode
-- Responsive design
-- Real-time activity feed
-- Celebration animations
-- Daily reflections
+| Category | Technology |
+|----------|------------|
+| Frontend | React |
+| Language | TypeScript |
+| Build Tool | Vite |
+| Styling | Tailwind CSS |
+| UI Components | shadcn/ui |
+| State Management | React Hooks |
+| Charts | Recharts |
+| Deployment | Lovable |
+| AI Prototyping | Google AI Studio |
 
 ---
 
-## 🏗️ Architecture
+# 📷 Screenshots
 
-```text
-User Input
-     ↓
-AI Smart Capture
-     ↓
-Task Engine
-     ↓
-Risk Analysis Engine
-     ↓
-AI Recommendation Layer
-     ↓
-Dashboard + Alerts + Reflections
+## Dashboard Overview
+
+![Dashboard](assets/dashboard1.png)
+
+---
+
+## AI Priority Queue & Deadline Alerts
+
+![Priority Queue](assets/dashboard2.png)
+
+---
+
+## Productivity Analytics & Wellness Monitoring
+
+![Analytics](assets/dashboard3.png)
+
+---
+
+## Smart Task Management
+
+![Tasks](assets/tasks.png)
+
+---
+
+## AI Reflection Journal
+
+![Reflections](assets/reflections.png)
+
+---
+
+## User Settings
+
+![Settings](assets/settings.png)
+
+---
+
+# 🚀 Getting Started
+
+## Clone Repository
+
+```bash
+git clone https://github.com/Gaurav10806/parallel-guardian-ai.git
+```
+
+```bash
+cd parallel-guardian-ai
+```
+
+## Install Dependencies
+
+```bash
+npm install
+```
+
+## Run Development Server
+
+```bash
+npm run dev
+```
+
+Application will run on:
+
+```bash
+http://localhost:5173
+```
+
+---
+
+# 📂 Project Structure
+
+```bash
+parallel-guardian-ai/
+│
+├── assets/
+├── src/
+│   ├── components/
+│   ├── hooks/
+│   ├── routes/
+│   ├── integrations/
+│   └── lib/
+│
+├── public/
+├── supabase/
+├── package.json
+└── README.md
+```
+
+---
+
+# 🎯 Target Users
+
+- College students
+- University students
+- Competitive exam aspirants
+- Internship seekers
+- Learners managing multiple deadlines
+
+---
+
+# 🔮 Future Enhancements
+
+- Google Calendar integration
+- Gmail integration
+- Push notifications
+- Mobile application
+- AI-powered timetable generation
+- Collaborative study groups
+- Voice assistant support
+
+---
+
+# 👨‍💻 Author
+
+**Gaurav Soni**
+
+GitHub: https://github.com/Gaurav10806
+
+---
+
+# 📄 License
+
+This project is developed for educational and hackathon purposes.
+
+---
+
+## ⭐ If you like this project, consider giving it a star!
