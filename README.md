@@ -4,7 +4,7 @@
 
 ## 🌐 Live Demo
 
-🔗 [Try Parallel Guardian AI Here]: https://parallel-guardian-ai.lovable.app
+🔗 [Try Parallel Guardian AI Here] https://parallel-guardian-ai.vercel.app
 
 ---
 
